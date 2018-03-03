@@ -1,0 +1,32 @@
+body{
+	text-align : center;
+}
+a{
+	text-decoration :none;
+}
+h1{
+	text-transform: uppercase;
+	font-family: "raleway";
+	font-size: 45px;
+	font-weight: 400;
+	color:#0D2C40;
+}
+h2{
+text-transform: uppercase;
+	font-family: "raleway";
+	font-size: 20px;
+	font-weight: 600;
+	color:#0D2C40;
+}
+h3{
+	text-transform: uppercase;
+	font-family: "raleway";
+	font-size: 18px;
+	font-weight: 400;
+	color: orange;
+}
+p{
+font-family: "droid serif";
+line-height: 26px;
+font-size: 18px;
+}
