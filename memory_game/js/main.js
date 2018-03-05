@@ -33,16 +33,17 @@ var checkForMatch = function(){
 								}
 								};
 var flipCard = function(cardId){
-console.log("User flipped " +cards[cardId].rank);
-cardsInPlay.push(cards[cardId].rank);
-console.log("cardImageSource " + cards[cardId].cardImage);
-console.log("suit  " + cards[cardId].suit);
+								console.log("User flipped " +cards[cardId].rank);
+								cardsInPlay.push(cards[cardId].rank);
+								console.log("cardImageSource " + cards[cardId].cardImage);
+								console.log("suit  " + cards[cardId].suit);
+								};
 /*if(cardsInPlay.length === 2){
 	console.log("There are  " + cardsInPlay.length);
 }*/
 checkForMatch();
 
-};
+
 
 flipCard(1);
 flipCard(0);
